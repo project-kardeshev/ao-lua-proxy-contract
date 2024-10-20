@@ -17,9 +17,12 @@
     "**/dist": true,
     "**/coverage": true
   },
-  "Lua.workspace.checkThirdParty": true,
+  "Lua.workspace.checkThirdParty": false,
   "[lua]": {
     "editor.defaultFormatter": "JohnnyMorganz.stylua",
     "editor.formatOnSave": true
-  }
+  },
+  "Lua.workspace.library": [
+    "${addons}/ao/module/library"
+  ]
 }
